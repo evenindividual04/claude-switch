@@ -1,0 +1,34 @@
+{
+  "name": "claude-switch",
+  "version": "1.0.0",
+  "description": "Production-safe runtime provider switcher for Claude CLI",
+  "bin": {
+    "claude-switch": "./bin/claude-switch.js"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "link": "npm link"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "cli",
+    "anthropic",
+    "z-ai",
+    "minimax",
+    "provider-switching",
+    "developer-tools"
+  ],
+  "license": "MIT"
+}
