@@ -27,6 +27,7 @@
     "anthropic",
     "z-ai",
     "minimax",
+    "ollama",
     "provider-switching",
     "developer-tools"
   ],

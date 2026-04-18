@@ -25,6 +25,11 @@ function mode(provider) {
     return;
   }
 
+  if (provider === 'OLLAMA') {
+    info('-> Ollama mode');
+    return;
+  }
+
   info('-> Claude (Anthropic)');
 }
 

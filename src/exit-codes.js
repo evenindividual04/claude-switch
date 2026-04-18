@@ -1,0 +1,16 @@
+'use strict';
+
+const EXIT_CODES = {
+  OK: 0,
+  UNKNOWN_ERROR: 1,
+  INVALID_USAGE: 2,
+  MISSING_CREDENTIAL: 3,
+  INVALID_PROVIDER: 4,
+  CLAUDE_BINARY_NOT_FOUND: 5,
+  SPAWN_FAILED: 6,
+  PROBE_FAILED: 7,
+};
+
+module.exports = {
+  EXIT_CODES,
+};
